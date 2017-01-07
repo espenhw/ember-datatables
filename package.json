@@ -1,24 +1,37 @@
 {
   "name": "ember-datatables",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.1.0",
+  "description": "Ember addon that implements the data-table component for rendering tabular data using the DataTables library.",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "jquery",
+    "datatables",
+    "table"
   ],
+  "homepage": "https://mfcollins3.github.io/ember-datatables",
+  "bugs": {
+    "url": "https://github.com/mfcollins3/ember-datatables/issues",
+    "email": "michael.collins@naked.software"
+  },
   "license": "MIT",
-  "author": "",
+  "author": {
+    "name": "Michael F. Collins, III",
+    "email": "michael.collins@naked.software",
+    "url": "http://www.michaelfcollins3.me"
+  },
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": "mfcollins3/ember-datatables",
   "scripts": {
     "build": "ember build",
     "start": "ember server",
     "test": "ember try:each"
   },
   "dependencies": {
-    "ember-cli-babel": "^5.1.7"
+    "ember-cli-babel": "^5.1.7",
+    "ember-cli-htmlbars": "^1.0.10"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
@@ -27,7 +40,6 @@
     "ember-cli-app-version": "^2.0.0",
     "ember-cli-chai": "0.3.2",
     "ember-cli-dependency-checker": "^1.3.0",
-    "ember-cli-htmlbars": "^1.0.10",
     "ember-cli-htmlbars-inline-precompile": "^0.3.3",
     "ember-cli-inject-live-reload": "^1.4.1",
     "ember-cli-jshint": "^2.0.1",
