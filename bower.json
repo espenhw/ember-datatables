@@ -2,6 +2,8 @@
   "name": "ember-datatables",
   "dependencies": {
     "ember": "~2.10.0",
-    "ember-cli-shims": "0.1.3"
+    "ember-cli-shims": "0.1.3",
+    "datatables.net": "^1.10.13",
+    "datatables.net-dt": "^3.2.2"
   }
 }
