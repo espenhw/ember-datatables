@@ -1,5 +1,7 @@
 # ember-datatables
 
+[![Build Status](https://travis-ci.org/mfcollins3/ember-datatables.svg?branch=master)](https://travis-ci.org/mfcollins3/ember-datatables)
+
 This README outlines the details of collaborating on this Ember addon.
 
 ## Installation
