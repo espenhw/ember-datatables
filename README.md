@@ -1,5 +1,6 @@
 # ember-datatables
 
+[![npm version](https://badge.fury.io/js/ember-datatables.svg)](https://badge.fury.io/js/ember-datatables)
 [![Build Status](https://travis-ci.org/mfcollins3/ember-datatables.svg?branch=master)](https://travis-ci.org/mfcollins3/ember-datatables)
 
 ## Current Status
