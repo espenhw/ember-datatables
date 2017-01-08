@@ -13,6 +13,7 @@ export default Ember.Component.extend({
   paging: null,
   ordering: null,
   info: null,
+  order: null,
 
   didInsertElement() {
     let options = {};
@@ -46,6 +47,7 @@ export default Ember.Component.extend({
     };
     setOption('columnDefs');
     setOption('info');
+    setOption('order');
     setOption('ordering');
     setOption('paging');
     
