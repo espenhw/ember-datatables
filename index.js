@@ -16,6 +16,8 @@ module.exports = {
       '/datatables.net/js/jquery.dataTables.js',
       '/datatables.net/js/jquery.dataTables.min.js'
     );
+    app.import(app.bowerDirectory + '/datatables.net-plugins/dataRender/datetime.js');
+    
     addBowerImport(
       '/datatables.net-dt/css/jquery.dataTables.css',
       '/datatables.net-dt/css/jquery.dataTables.min.css'

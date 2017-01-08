@@ -8,6 +8,7 @@ export default Ember.Component.extend({
 
   data: null,
   columns: null,
+  columnDefs: null,
 
   paging: null,
   ordering: null,
@@ -43,9 +44,10 @@ export default Ember.Component.extend({
         options[name] = value;
       }
     };
-    setOption('paging');
-    setOption('ordering');
+    setOption('columnDefs');
     setOption('info');
+    setOption('ordering');
+    setOption('paging');
     
     this.$().DataTable(options);
   }
