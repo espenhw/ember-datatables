@@ -11,6 +11,7 @@ Router.map(function() {
     this.route('zero-configuration');
     this.route('feature-enable-disable');
     this.route('default-ordering');
+    this.route('multi-column-ordering');
   });
 });
 
