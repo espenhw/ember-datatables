@@ -9,6 +9,10 @@ export default Ember.Component.extend({
   data: null,
   columns: null,
 
+  paging: null,
+  ordering: null,
+  info: null,
+
   didInsertElement() {
     let options = {};
 
@@ -33,6 +37,16 @@ export default Ember.Component.extend({
       options.columns = columns;
     }
 
+    let setOption = (name) => {
+      let value = this.get(name);
+      if (null !== value) {
+        options[name] = value;
+      }
+    };
+    setOption('paging');
+    setOption('ordering');
+    setOption('info');
+    
     this.$().DataTable(options);
   }
 });
