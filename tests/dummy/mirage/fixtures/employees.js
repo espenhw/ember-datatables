@@ -218,5 +218,181 @@ export default [
     age: 35,
     startDate: '2012-09-26',
     salary: 217500
+  },
+  {
+    id: 21,
+    firstName: 'Jenette',
+    lastName: 'Caldwell',
+    position: 'Development Lead',
+    office: 'New York',
+    extension: '1937',
+    age: 35,
+    startDate: '2011-09-03',
+    salary: 345000
+  },
+  {
+    id: 22,
+    firstName: 'Yuri',
+    lastName: 'Berry',
+    position: 'Chief Marketing Officer (CMO)',
+    office: 'New York',
+    extension: '6154',
+    age: 35,
+    startDate: '2009-06-25',
+    salary: 675000
+  },
+  {
+    id: 23,
+    firstName: 'Caesar',
+    lastName: 'Vance',
+    position: 'Pre-Sales Support',
+    office: 'New York',
+    extension: '8330',
+    age: 35,
+    startDate: '2011-12-12',
+    salary: 106450
+  },
+  {
+    id: 24,
+    firstName: 'Doris',
+    lastName: 'Wilder',
+    position: 'Sales Assistant',
+    office: 'Sydney',
+    extension: '3023',
+    age: 35,
+    startDate: '2010-09-20',
+    salary: 85600
+  },
+  {
+    id: 25,
+    firstName: 'Angelica',
+    lastName: 'Ramos',
+    position: 'Chief Executive Officer (CEO)',
+    office: 'London',
+    extension: '5797',
+    age: 35,
+    startDate: '2009-10-09',
+    salary: 1200000
+  },
+  {
+    id: 26,
+    firstName: 'Gavin',
+    lastName: 'Joyce',
+    position: 'Developer',
+    office: 'Edinburgh',
+    extension: '8822',
+    age: 35,
+    startDate: '2010-12-22',
+    salary: 92575
+  },
+  {
+    id: 27,
+    firstName: 'Jennifer',
+    lastName: 'Chang',
+    position: 'Regional Director',
+    office: 'Singapore',
+    extension: '9239',
+    age: 35,
+    startDate: '2010-11-14',
+    salary: 357650
+  },
+  {
+    id: 28,
+    firstName: 'Brenden',
+    lastName: 'Wagner',
+    position: 'Software Engineer',
+    office: 'San Francisco',
+    extension: '1314',
+    age: 35,
+    startDate: '2011-06-07',
+    salary: 206850
+  },
+  {
+    id: 29,
+    firstName: 'Fiona',
+    lastName: 'Green',
+    position: 'Chief Operating Officer (COO)',
+    office: 'San Francisco',
+    extension: '2947',
+    age: 35,
+    startDate: '2010-03-11',
+    salary: 850000
+  },
+  {
+    id: 30,
+    firstName: 'Shou',
+    lastName: 'Itou',
+    position: 'Regional Marketing',
+    office: 'Tokyo',
+    extension: '8899',
+    age: 35,
+    startDate: '2011-08-14',
+    salary: 163000
+  },
+  {
+    id: 31,
+    firstName: 'Michelle',
+    lastName: 'House',
+    position: 'Integration Specialist',
+    office: 'Syndey',
+    extension: '2769',
+    age: 35,
+    startDate: '2011-06-02',
+    salary: 95400
+  },
+  {
+    id: 32,
+    firstName: 'Suki',
+    lastName: 'Burks',
+    position: 'Developer',
+    office: 'London',
+    extension: '6832',
+    age: 35,
+    startDate: '2009-10-22',
+    salary: 114500
+  },
+  {
+    id: 33,
+    firstName: 'Prescott',
+    lastName: 'Bartlett',
+    position: 'Technical Author',
+    office: 'London',
+    extension: '3606',
+    age: 35,
+    startDate: '2011-05-07',
+    salary: '145000'
+  },
+  {
+    id: 34,
+    firstName: 'Gavin',
+    lastName: 'Cortez',
+    position: 'Team Leader',
+    office: 'San Francisco',
+    extension: '2860',
+    age: 35,
+    startDate: '2008-10-26',
+    salary: 235500
+  },
+  {
+    id: 35,
+    firstName: 'Martena',
+    lastName: 'Mccray',
+    position: 'Post-Sales support',
+    office: 'Edinburgh',
+    extension: '8240',
+    age: 35,
+    startDate: '2011-03-09',
+    salary: 324050
+  },
+  {
+    id: 36,
+    firstName: 'Unity',
+    lastName: 'Butler',
+    position: 'Marketing Designer',
+    office: 'San Francisco',
+    extension: '5384',
+    age: 35,
+    startDate: '2009-12-09',
+    salary: 85675
   }
 ];
