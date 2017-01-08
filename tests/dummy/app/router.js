@@ -12,6 +12,8 @@ Router.map(function() {
     this.route('feature-enable-disable');
     this.route('default-ordering');
     this.route('multi-column-ordering');
+    this.route('hidden-columns');
+    this.route('complex-headers');
   });
 });
 
