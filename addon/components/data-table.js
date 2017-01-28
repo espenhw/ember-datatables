@@ -10,10 +10,20 @@ export default Ember.Component.extend({
   columns: null,
   columnDefs: null,
 
-  paging: null,
-  ordering: null,
+  autoWidth: null,
+  deferRender: null,
   info: null,
+  jQueryUI: null,
+  lengthChange: null,
   order: null,
+  ordering: null,
+  paging: null,
+  processing: null,
+  scrollX: null,
+  scrollY: null,
+  searching: null,
+  serverSide: null,
+  stateSave: null,
 
   didInsertElement() {
     let options = {};
@@ -31,7 +41,6 @@ export default Ember.Component.extend({
     }
 
     if (null !== columns) {
-
       for (let column of columns) {
         column.data = getColumnValue;
       }
@@ -45,11 +54,21 @@ export default Ember.Component.extend({
         options[name] = value;
       }
     };
+    setOption('autoWidth');
     setOption('columnDefs');
+    setOption('deferRender');
     setOption('info');
+    setOption('jQueryUI');
+    setOption('lengthChange');
     setOption('order');
     setOption('ordering');
     setOption('paging');
+    setOption('processing');
+    setOption('scrollX');
+    setOption('scrollY');
+    setOption('searching');
+    setOption('serverSide');
+    setOption('stateSave');
     
     this.$().DataTable(options);
   }
