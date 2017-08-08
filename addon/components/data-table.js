@@ -4,8 +4,6 @@ import layout from '../templates/components/data-table';
 export default Ember.Component.extend({
   layout,
 
-  tagName: 'table',
-
   data: null,
   columns: null,
   columnDefs: null,
@@ -69,7 +67,7 @@ export default Ember.Component.extend({
     setOption('searching');
     setOption('serverSide');
     setOption('stateSave');
-    
-    this.$().DataTable(options);
+
+    this.$("table").DataTable(options);
   }
 });
