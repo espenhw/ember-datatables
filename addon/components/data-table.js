@@ -23,6 +23,8 @@ export default Ember.Component.extend({
   serverSide: null,
   stateSave: null,
 
+  createdRow: null,
+
   didInsertElement() {
     let options = {};
 
@@ -67,6 +69,7 @@ export default Ember.Component.extend({
     setOption('searching');
     setOption('serverSide');
     setOption('stateSave');
+    setOption('createdRow');
 
     this.$("table").addClass(this.get('class')).DataTable(options);
   }
