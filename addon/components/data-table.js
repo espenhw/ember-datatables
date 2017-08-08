@@ -68,6 +68,6 @@ export default Ember.Component.extend({
     setOption('serverSide');
     setOption('stateSave');
 
-    this.$("table").DataTable(options);
+    this.$("table").addClass(this.get('class')).DataTable(options);
   }
 });
