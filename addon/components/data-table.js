@@ -25,8 +25,10 @@ export default Ember.Component.extend({
 
   createdRow: null,
 
+  options: {},
+
   didInsertElement() {
-    let options = {};
+    let options = this.get('options');
 
     let models = this.get('data');
     if (null !== models) {
