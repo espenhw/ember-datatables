@@ -1,5 +1,6 @@
 import Ember from 'ember';
 import layout from '../templates/components/data-table';
+import $ from 'jquery';
 
 export default Ember.Component.extend({
   layout,
@@ -28,7 +29,7 @@ export default Ember.Component.extend({
   options: {},
 
   didInsertElement() {
-    let options = this.get('options');
+    let options = $.extend({}, this.get('options'));
 
     let models = this.get('data');
     if (null !== models) {
