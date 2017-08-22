@@ -28,13 +28,19 @@ export default Ember.Component.extend({
 
   options: {},
 
+  didUpdateAttrs() {
+    this._super(...arguments);
+    this.get('dataTable').ajax.reload();
+  },
+
   didInsertElement() {
     let options = $.extend({}, this.get('options'));
 
-    let models = this.get('data');
-    if (null !== models) {
+    let data = this.get('data');
+    if (null !== data) {
+      let models = () => this.get('data');
       options.ajax = function(data, callback) {
-        callback({data: models.toArray()});
+        callback({data: models().toArray()});
       };
     }
 
@@ -74,6 +80,7 @@ export default Ember.Component.extend({
     setOption('stateSave');
     setOption('createdRow');
 
-    this.$("table").addClass(this.get('class')).DataTable(options);
+    let dataTable = this.$("table").addClass(this.get('class')).DataTable(options);
+    this.set('dataTable', dataTable);
   }
 });
