@@ -1,6 +1,6 @@
 {
   "name": "ember-datatables",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Ember addon that implements the data-table component for rendering tabular data using the DataTables library.",
   "keywords": [
     "ember-addon",
@@ -8,10 +8,8 @@
     "datatables",
     "table"
   ],
-  "homepage": "https://mfcollins3.github.io/ember-datatables",
   "bugs": {
-    "url": "https://github.com/mfcollins3/ember-datatables/issues",
-    "email": "michael.collins@naked.software"
+    "url": "https://github.com/espenhw/ember-datatables/issues"
   },
   "license": "MIT",
   "author": {
@@ -19,11 +17,14 @@
     "email": "michael.collins@naked.software",
     "url": "http://www.michaelfcollins3.me"
   },
+  "contributors": {
+    "name": "Espen Wiborg"
+  },
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "mfcollins3/ember-datatables",
+  "repository": "espenhw/ember-datatables",
   "scripts": {
     "build": "ember build",
     "start": "ember server",
